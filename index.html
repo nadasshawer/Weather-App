@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <canvas width="200" height="10"></canvas>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <meta charset="utf-8" />
+  </head>
+  <body style="background-color:powderblue" ;>
+    <center>
+      <!--Name of app-->
+      <h1>Weather Engine</h1>
+
+      <!--References to other pages-->
+      <script src="sketch.js"></script>
+      <script src="feelsLike.js"></script>
+      <script src="humidity.js"></script>
+      <script src="pressure.js"></script>
+      <script src="maxTemp.js"></script>
+      <script src="minTemp.js"></script>
+      <script src="windSpeed.js"></script>
+
+      <!--City or area name-->
+      <p>
+        City/Area:
+        <br />
+        <!--Text input-->
+        <input id="weather" value="" />
+        <!--Search and pause buttons-->
+        <button id="search">Search</button>
+        <button id="pause">Pause</button>
+      </p>
+    </center>
+  </body>
+</html>

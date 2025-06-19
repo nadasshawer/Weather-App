@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Adjusting the canvas*/
+canvas {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Header stylings*/
+h1 {
+  font-size: 40px;
+  font-family: Trebuchet MS;
+}
+
+/*Paragraph stylings*/
+p {
+  font-size: 20px;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+}
+
+/*Button stylings*/
+button {
+  width: 20%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 6px 0;
+  border-radius: 5px;
+}
+
+/*Search button stylings*/
+#search {
+  background: steelblue;
+}
+
+/*Pause button stylings*/
+#pause {
+  background: #08970E;
+}
+
+/*User input (text input) stylings*/
+input {
+  width: 40%;
+  outline: none;
+  border: none;
+  color: black;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 18px;
+  padding: 6px 0;
+  border-radius: 4px;
+  background: white;
+}
